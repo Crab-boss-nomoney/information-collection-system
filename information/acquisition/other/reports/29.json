@@ -1,0 +1,29 @@
+{
+    "info": {
+        "args": "F:/pythons/information/acquisition/dirsearch/dirsearch.py -u http://127.0.0.1:8000/ --format json -o F:/pythons/information/acquisition/other/reports/29.json",
+        "time": "Sat Mar 25 20:01:32 2023"
+    },
+    "results": [
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/admin/",
+            "status": 301,
+            "url": "http://127.0.0.1:8000/admin"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/admin/login/?next=/admin/",
+            "status": 302,
+            "url": "http://127.0.0.1:8000/admin/"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/admin/login/",
+            "status": 301,
+            "url": "http://127.0.0.1:8000/admin/login"
+        }
+    ]
+}

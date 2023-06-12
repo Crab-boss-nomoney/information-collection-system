@@ -1,0 +1,12 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% block title %}信息收集{% endblock %}
+
+
+{% block contents %}
+    <div class="panel-body">
+        {% for i in result %}
+            {{ i }}<br>
+        {% endfor %}
+    /div>
+{% endblock %}

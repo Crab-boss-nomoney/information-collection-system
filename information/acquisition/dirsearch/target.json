@@ -1,0 +1,64 @@
+{
+    "info": {
+        "args": "dirsearch.py -u http://127.0.0.1:8002/dir-search/ --format json -o target.json",
+        "time": "Sat Mar 25 17:32:03 2023"
+    },
+    "results": [
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/dir-search/admin_media/",
+            "status": 301,
+            "url": "http://127.0.0.1:8002/dir-search/admin_media"
+        },
+        {
+            "content-length": 1951,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 404,
+            "url": "http://127.0.0.1:8002/dir-search/all/modules/ogdi_field/plugins/dataTables/extras/TableTools/media/swf/ZeroClipboard.swf"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/dir-search/media/",
+            "status": 301,
+            "url": "http://127.0.0.1:8002/dir-search/media"
+        },
+        {
+            "content-length": 1743,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 404,
+            "url": "http://127.0.0.1:8002/dir-search/media/"
+        },
+        {
+            "content-length": 1819,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 404,
+            "url": "http://127.0.0.1:8002/dir-search/media/export-criteo.xml"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/dir-search/multimedia/",
+            "status": 301,
+            "url": "http://127.0.0.1:8002/dir-search/multimedia"
+        },
+        {
+            "content-length": 1899,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 404,
+            "url": "http://127.0.0.1:8002/dir-search/path/dataTables/extras/TableTools/media/swf/ZeroClipboard.swf"
+        },
+        {
+            "content-length": 1931,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 404,
+            "url": "http://127.0.0.1:8002/dir-search/script/jqueryplugins/dataTables/extras/TableTools/media/swf/ZeroClipboard.swf"
+        }
+    ]
+}

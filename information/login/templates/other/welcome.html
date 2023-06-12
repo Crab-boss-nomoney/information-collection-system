@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>INFO</title>
+    <link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon"/>
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet" />
+    <link href="{% static 'plugins/welcome/style.min.css' %}" rel="stylesheet">
+    <style>
+        #grad1 {
+        height:100vh;
+        background: -webkit-linear-gradient(left top, black , grey); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(bottom right, black, grey); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(bottom right, black, grey); /* Firefox 3.6 - 15 */
+        background: linear-gradient(to bottom right, black , grey); /* 标准的语法（必须放在最后） */
+}
+    </style>
+
+</head>
+	<body>
+        <!--标题栏-->
+		<header class="header-global">
+			<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+				<div class="container">
+					<a class="navbar-brand mr-lg-5" href="#">
+                        <img alt="Brand" style="float: left" src="{% static '/img/favicon.ico' %}"/>
+						<h4 class="text-white">INFO</h4>
+					</a>
+					<div class="navbar-collapse collapse" id="navbar_global">
+						<ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+							<li class="nav-item d-none d-lg-block ml-lg-4">
+                                <a href="{% url 'login' %}" class="btn btn-neutral btn-icon">
+									<span class="btn-inner--icon"><i class="fas fa-user-circle" style="zoom: 1.3"></i></span>
+                                    <span class="nav-link-btn-default--text">Sign in</span>
+								</a>
+                            </li>
+							<li class="nav-item d-none d-lg-block ml-lg-4">
+                                <a href="{% url 'index' %}" class="btn btn-neutral btn-icon">
+									<span class="btn-inner--icon"><i class="fas fa-running" style="zoom: 1.3"></i></span>
+                                    <span class="nav-link-inner--text">Get Started</span>
+								</a>
+                            </li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+            <section class="section section-hero section-shaped" id="grad1" >
+                <!--背景方框-->
+
+
+                <!--介绍&登录和进入按钮-->
+              <div class="page-header">
+                <div class="container shape-container d-flex align-items-center py-lg">
+                  <div class="col px-0">
+                    <div class="row align-items-center justify-content-center">
+                      <div class="col-lg-6 text-center">
+                        <h1 class="text-white display-3" >一款在线Web信息收集工具</h1>
+                        <h3 class="display-5 font-weight-normal text-white" >简单、便捷、高效、界面简单</h3>
+                        <div class="btn-wrapper mt-4">
+                          <a href="{% url 'index' %}" class="btn btn-default btn-icon mt-3 mb-sm-0">
+                            <span class="btn-default--icon"><i class="fas fa-play" style="zoom:1.1;"></i></span>
+                            <span class="btn-default--text">开始吧！</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </section>
+		</main>
+
+
+	</body>
+</html>

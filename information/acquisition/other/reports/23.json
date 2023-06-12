@@ -1,0 +1,92 @@
+{
+    "info": {
+        "args": "F:/pythons/information/acquisition/dirsearch/dirsearch.py -u http://127.0.0.1:8000/ --format json -o F:/pythons/information/acquisition/other/reports/26.json",
+        "time": "Sat Mar 25 19:57:03 2023"
+    },
+    "results": [
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/admin/",
+            "status": 301,
+            "url": "http://127.0.0.1:8000/admin"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/admin/login/?next=/admin/",
+            "status": 302,
+            "url": "http://127.0.0.1:8000/admin/"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/admin/login/",
+            "status": 301,
+            "url": "http://127.0.0.1:8000/admin/login"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/index/",
+            "status": 301,
+            "url": "http://127.0.0.1:8000/index"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/login/",
+            "status": 301,
+            "url": "http://127.0.0.1:8000/login"
+        },
+        {
+            "content-length": 3288,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 200,
+            "url": "http://127.0.0.1:8000/login/"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/login_out/",
+            "status": 301,
+            "url": "http://127.0.0.1:8000/login_out"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/index",
+            "status": 302,
+            "url": "http://127.0.0.1:8000/login_out/"
+        },
+        {
+            "content-length": 0,
+            "content-type": "text/html",
+            "redirect": "/register/",
+            "status": 301,
+            "url": "http://127.0.0.1:8000/register"
+        },
+        {
+            "content-length": 1674,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 404,
+            "url": "http://127.0.0.1:8000/static/api/swagger.json"
+        },
+        {
+            "content-length": 1650,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 404,
+            "url": "http://127.0.0.1:8000/static/dump.sql"
+        },
+        {
+            "content-length": 1674,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 404,
+            "url": "http://127.0.0.1:8000/static/api/swagger.yaml"
+        }
+    ]
+}

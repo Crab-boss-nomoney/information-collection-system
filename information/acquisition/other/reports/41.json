@@ -1,0 +1,29 @@
+{
+    "info": {
+        "args": "F:/pythons/information/acquisition/dirsearch/dirsearch.py -u https://jwt1399.top/ --format json -o F:/pythons/information/acquisition/other/reports/41.json",
+        "time": "Sun Mar 26 13:01:05 2023"
+    },
+    "results": [
+        {
+            "content-length": 53738,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 200,
+            "url": "https://jwt1399.top/404.html"
+        },
+        {
+            "content-length": 308,
+            "content-type": "text/plain",
+            "redirect": "",
+            "status": 200,
+            "url": "https://jwt1399.top/robots.txt"
+        },
+        {
+            "content-length": 39738,
+            "content-type": "text/xml",
+            "redirect": "",
+            "status": 200,
+            "url": "https://jwt1399.top/sitemap.xml"
+        }
+    ]
+}
